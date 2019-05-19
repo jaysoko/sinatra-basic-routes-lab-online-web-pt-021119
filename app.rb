@@ -9,5 +9,7 @@ class App < Sinatra::Base
     puts "My name is "
   end
 
-
+ get '/hometown' do
+    puts "My hometown is "
+ end
 end
