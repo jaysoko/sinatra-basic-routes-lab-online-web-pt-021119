@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end
 
   get '/name' do
-    puts "Hello"
+    puts "My name is "
   end
 
 
